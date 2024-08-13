@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding-left: 115px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-family: "Monserrat", sans-serif;
+}
+header .container {
+  justify-content: space-between;
+  margin: 80px;
+  display: flex;
+}
+header .container .header-block h3 {
+  font-size: 50px;
+  color: #192252;
+}
+header .container .header-block .header-item li {
+  list-style: none;
+  display: flex;
+}
+header .container .header-block .header-item a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-actions button {
+  border-radius: 5px;
+  padding: 15px;
+  background: none;
+  border: none;
+  background-color: #0e1734;
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+.container1 .contact-block {
+  margin: 121px;
+  font-family: "Montserrat", sans-serif;
+}
+.container1 .contact-actions button {
+  border-radius: 4px;
+  padding: 15px;
+  background: none;
+  border: none;
+  background-color: #0e1734;
+  color: white;
+  margin-top: 48px;
+}
+
+main .container2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 126px;
+  margin: 180px;
+}
+main .contain-block {
+  margin: 105px;
+}
+main p {
+  margin-top: 24px;
+}
+main .contain-actions button {
+  margin-top: 48px;
+  border-radius: 4px;
+  padding: 15px;
+  background-color: #0E1734;
+  color: white;
+}
+
+footer .container3 {
+  margin: 120px;
+  display: flex;
+  gap: 126px;
+}
+footer .food-img {
+  justify-content: end;
+}
+footer .food-block h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+}
+footer .food-block p {
+  color: #848FAC;
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+nav .container4 {
+  display: flex;
+  margin: 120px;
+}
+nav .container4 .many-block {
+  margin: 126px;
+}
+nav .container4 .many-block h6 {
+  font-size: 36px;
+}
+nav .container4 .many-block p {
+  margin-top: 24px;
+  color: #848FAC;
+  font-size: 18px;
+}/*# sourceMappingURL=main.css.map */
